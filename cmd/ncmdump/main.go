@@ -191,5 +191,10 @@ func main() {
 		return nil
 	}
 	app.Run(os.Args)
+
+
+	fmt.Println("\nPress Enter to exit...")
+	fmt.Scanln()
+
 	return
 }
